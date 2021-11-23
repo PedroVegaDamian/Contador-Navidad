@@ -25,23 +25,25 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .countdown__title {
   position: relative;
   margin-bottom: 2rem;
-  font-size: clamp(1.2rem, 5vw, 4rem);
+  font-size: clamp(1.3rem, 6.2vw, 4rem);
 }
 
 .countdown__wrapper {
+  width: 100%;
   display: flex;
   padding: 2rem;
   border-radius: 10px;
   justify-content: center;
   backdrop-filter: blur(2px);
-  font-size: clamp(1.2rem, 6vw, 8rem);
+  /* font-size: clamp(1.2rem, 6vw, 8rem); */
+  font-size: clamp(2.2rem, 10vw, 8rem);
 }
 
 .countdown__counter {
@@ -55,5 +57,5 @@ body {
 .countdown__label {
   font-size: 1rem;
   font-weight: 400;
-  font-size: clamp(0.3rem, 1.5vw, 2rem);
+  font-size: clamp(0.6rem, 1.5vw, 2rem);
 }
