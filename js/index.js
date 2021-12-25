@@ -6,7 +6,7 @@ const hours = document.getElementById('hours')
 const minutes = document.getElementById('minutes')
 const seconds = document.getElementById('seconds')
 
-const date = '25/12/2021'
+const date = '25/12/2022'
 
 const second = 1000
 const minute = second * 60
