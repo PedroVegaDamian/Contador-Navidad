@@ -1,4 +1,4 @@
-const parseStringToDate = dateToParse => {
+const parseStringToDate = (dateToParse: string) => {
   const dateArray = dateToParse.split('/')
   const dateShortFormat = [dateArray[1], dateArray[0], dateArray[2]].join('/')
   return new Date(dateShortFormat)
