@@ -1,9 +1,9 @@
 {
   "name": "contador-navidad",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --outDir docs",
+    "build": "tsc && vite build --outDir docs --base https://pedroangeldev.github.io/Contador-Navidad/",
     "preview": "vite preview"
   },
   "devDependencies": {
