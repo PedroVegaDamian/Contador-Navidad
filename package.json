@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --outDir docs --base https://pedroangeldev.github.io/Contador-Navidad/",
+    "build": "tsc && vite build --outDir docs --base https://pedrovegadamian.github.io/Contador-Navidad/",
     "preview": "vite preview"
   },
   "devDependencies": {
