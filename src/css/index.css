@@ -42,7 +42,6 @@ body {
   border-radius: 10px;
   justify-content: center;
   backdrop-filter: blur(2px);
-  /* font-size: clamp(1.2rem, 6vw, 8rem); */
   font-size: clamp(2.2rem, 10vw, 8rem);
 }
 
