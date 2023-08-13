@@ -6,8 +6,7 @@ const hours = document.getElementById("hours")!;
 const minutes = document.getElementById("minutes")!;
 const seconds = document.getElementById("seconds")!;
 
-const currentDate = new Date();
-const currentYear = currentDate.getFullYear();
+const currentYear = new Date().getFullYear();
 
 const date = `25/12/${currentYear}`;
 
@@ -17,6 +16,7 @@ const hour = minute * 60;
 const day = hour * 24;
 
 const countDown = () => {
+  const currentDate = new Date();
   const formattedDate = parseStringToDate(date);
 
   const gapDates = formattedDate.getTime() - currentDate.getTime();
