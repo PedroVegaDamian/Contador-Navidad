@@ -1,4 +1,4 @@
-# Contador Navidad
+# Contador Navidad 🎄
 
 Este es un simple proyecto de contador de días para la temporada navideña. Puedes usarlo para contar los días que faltan para Navidad y compartir la emoción con tus amigos y familiares.
 
