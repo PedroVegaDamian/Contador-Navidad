@@ -1,13 +1,15 @@
 {
   "name": "contador-navidad",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --outDir docs --base https://pedrovegadamian.github.io/Contador-Navidad/",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "license": "MIT",
   "devDependencies": {
-    "typescript": "4.4.4",
-    "vite": "2.7.2"
+    "typescript": "5.2.2",
+    "vite": "5.0.0"
   }
 }
